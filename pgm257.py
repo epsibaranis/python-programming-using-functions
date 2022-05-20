@@ -18,6 +18,6 @@ def number(a):
 #main
 n=int(input('n=?'))
 a=construct(n)
-print(a)
+print("list",a)
 number(a)
-print(z,x,y)
+print("count the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variablescount the +ve number,-ve number,zeroes in the n-random list using global variables",z,x,y)

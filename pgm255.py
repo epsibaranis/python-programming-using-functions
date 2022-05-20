@@ -15,6 +15,6 @@ def num2(a):
 #main
 n=int(input('n=?'))
 a=construct(n)
-print(a)
+print("print the list element one by one:",a)
 num(a)
 print('sum of the element=',num2(a))

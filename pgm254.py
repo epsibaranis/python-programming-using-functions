@@ -9,11 +9,5 @@ def num(a):
 #main
 n=int(input('n=?'))
 a=construct(n)
-print(a)
+print("print the list element one by one:",a)
 num(a)
-
-
-
-
-    
-

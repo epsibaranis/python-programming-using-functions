@@ -24,6 +24,6 @@ def number(a):
 #main
 n=int(input('n=?'))
 a=construct(n)
-print(a)
+print("list",a)
 number(a)
-print(x,y,z,p,q)
+print("Constut a list of n-andom numbersusing functin count th number that are diiviisible by 2,3,5,7 and 9 using lbal variable",x,y,z,p,q)

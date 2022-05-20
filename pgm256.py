@@ -18,6 +18,6 @@ def number(a):
 #main
 n=int(input('n=?'))
 a=construct(n)
-print(a)
+print("list of random numbers:",a)
 b=number(a)
-print(b)
+print("count the +ve number,-ve number,zeroes in the n-random list using function",b)

@@ -17,6 +17,7 @@ def interchange(a,n):
   a[p]=s
   a[q]=b
 def printlist(a,n):
+    print("Intechange the Biggest and smallest in the list using function and global varibles")
     for i in range(n):
          print(a[i],end=('  '))
     print()
@@ -26,4 +27,3 @@ a=construct(n)
 print(a)
 interchange(a,n)   
 printlist(a,n)
-

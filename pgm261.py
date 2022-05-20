@@ -8,9 +8,6 @@ def menu():
     print('5:Biggest element in the coloumn of a matrix')
     print('6:sum of two matrixes')
     print('7:product of two matrixes' )
-    print(8)
-    print(9)
-    print(10)
     n=int(input('n=?'))  
     return n
 def createMat():
@@ -66,38 +63,36 @@ n=menu()
 while n!=10:
       if n==1:
          b=createMat()
-         print(b)
+         print("Create a matrix:",b)
       elif n==2:
         b=createMat()
-        printMat(b)
+        printMat("print a matrix:",b)
       elif n==3:
           b=createMat()
-          print(b)
+          print("print a taranfersmatrix:",b)
           printtranfersMat(b)
       elif n==4:
           b=createMat()
-          print(b)
+          print("sum of the elements of the matrix in a row:",b)
           t=sumrowsinMat(b)
           print(t)
       elif n==5:
           b=createMat()
-          print(b)
+          print("Biggest element in the coloumn of a matrix:",b)
           o=columnsBigelenmat(b)
           print(o)
       elif n==6:
           b1=createMat()
           b2=createMat()
-          print(b1)
-          print(b2)
+          print("first matrix:",b1)
+          print("second matrix:",b2)
           v= sumoftwoMat(b1,b2)
-          print(v)
+          print("sum of two matrixes:",v)
       elif n==7:
           b1=createMat()
           b2=createMat()
-          print(b1)
-          print(b2)
+          print("first matrixes:",b1)
+          print("Second matrixes:",b2)
           w=productoftwoMaat(b1,b2)
-          print(w)
-          
+          print("Product of two matrixes:",w)
       n=menu()
-   

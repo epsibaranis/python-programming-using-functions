@@ -23,6 +23,7 @@ def interchange(a,n):
   a[p1]=s2
   a[p2]=b2
 def printlist(a,n):
+    print("Intechange the seond biggest and second smallest in the list using function and global varibles")
     for i in range(n):
          print(a[i],end=('  '))
     print()
