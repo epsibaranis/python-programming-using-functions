@@ -3,5 +3,4 @@ def area(r=154):
     a=22/7*r**2
     return a
 #main
-print(area(r=7000))
-
+print("Area of circle",area(r=7000))

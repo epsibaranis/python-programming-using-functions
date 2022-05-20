@@ -5,4 +5,4 @@ def area(r):
 #main
 r=int(input('r=?'))
 a=area(r)
-print(a)
+print("Area of circle using function:",a)

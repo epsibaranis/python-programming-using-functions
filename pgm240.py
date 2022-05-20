@@ -6,4 +6,4 @@ def sum (a,b):
 x=int(input('x=?'))
 y=int(input('y=?'))
 c=sum(x,y)
-print(c)
+print("sum of two integer's using function:",c)

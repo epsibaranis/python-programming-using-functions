@@ -4,6 +4,6 @@ def area(r=100):
     return a
 #main
 n=int(input('n=?'))
-print(area())
-print(area(7))
-print(area(n))
+print("Area of the circle:",area())
+print("Area of the circle:",area(7))
+print("Area of the circle:",area(n))
